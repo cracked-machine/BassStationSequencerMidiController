@@ -1,0 +1,147 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 46
+Title "PSU - LDO 3.3V @ 100mA"
+Date "2021-06-05"
+Rev "A"
+Comp "Created by C Sutton"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U40
+U 1 1 60C47543
+P 5150 3425
+F 0 "U40" H 5150 3667 50  0000 C CNN
+F 1 "SE8233X2" H 5150 3576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1912111437_Seaward-Elec-SE8233X2_C437587.pdf" H 5150 3425 50  0001 C CNN
+F 4 "C437587" H 5150 3425 50  0001 C CNN "LcscNo"
+	1    5150 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3725 5150 4025
+$Comp
+L power:GNDS #PWR0109
+U 1 1 60C48041
+P 5150 4800
+F 0 "#PWR0109" H 5150 4550 50  0001 C CNN
+F 1 "GNDS" H 5155 4627 50  0000 C CNN
+F 2 "" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0001 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3425 4025 3425
+Text HLabel 3250 3425 0    50   Input ~ 0
+LDO_VIN
+Wire Wire Line
+	5450 3425 6275 3425
+Text HLabel 8525 3425 2    50   Output ~ 0
+LDO_VOUT
+$Comp
+L Device:C C6
+U 1 1 60C48414
+P 4025 3725
+F 0 "C6" H 4140 3771 50  0000 L CNN
+F 1 "1uF" H 4140 3680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4063 3575 50  0001 C CNN
+F 3 "~" H 4025 3725 50  0001 C CNN
+	1    4025 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 3575 4025 3425
+Connection ~ 4025 3425
+Wire Wire Line
+	4025 3425 3250 3425
+Wire Wire Line
+	4025 3875 4025 4025
+Wire Wire Line
+	4025 4025 5150 4025
+Connection ~ 5150 4025
+Wire Wire Line
+	5150 4025 5150 4500
+$Comp
+L Device:C C7
+U 1 1 60C488AD
+P 6275 3725
+F 0 "C7" H 6390 3771 50  0000 L CNN
+F 1 "10uF" H 6390 3680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6313 3575 50  0001 C CNN
+F 3 "~" H 6275 3725 50  0001 C CNN
+	1    6275 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 3875 6275 4025
+Wire Wire Line
+	6275 4025 5150 4025
+Wire Wire Line
+	6275 3575 6275 3425
+Connection ~ 6275 3425
+Wire Wire Line
+	6275 3425 7125 3425
+$Comp
+L Device:LED D4
+U 1 1 60C49877
+P 7125 3750
+F 0 "D4" V 7164 3632 50  0000 R CNN
+F 1 "RED" V 7073 3632 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7125 3750 50  0001 C CNN
+F 3 "~" H 7125 3750 50  0001 C CNN
+F 4 "C2293" H 7125 3750 50  0001 C CNN "LcscNo"
+	1    7125 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60C49DE3
+P 7125 4225
+F 0 "R9" H 7195 4271 50  0000 L CNN
+F 1 "2K2" H 7195 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7055 4225 50  0001 C CNN
+F 3 "~" H 7125 4225 50  0001 C CNN
+	1    7125 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 4075 7125 3900
+Wire Wire Line
+	7125 3600 7125 3425
+Connection ~ 7125 3425
+Wire Wire Line
+	7125 3425 8525 3425
+Wire Wire Line
+	7125 4375 7125 4500
+Wire Wire Line
+	7125 4500 5150 4500
+Connection ~ 5150 4500
+Wire Wire Line
+	5150 4500 5150 4800
+Text Notes 5025 3100 0    50   ~ 0
+30VIN\n100mA
+Wire Wire Line
+	7125 3425 7125 3300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60CC8E77
+P 7125 3300
+AR Path="/60BD3123/60BD5AA5/60CC8E77" Ref="TP?"  Part="1" 
+AR Path="/60BD3123/63615DFB/60CC8E77" Ref="TP?"  Part="1" 
+AR Path="/60BD3123/60C47354/60CC8E77" Ref="TP8"  Part="1" 
+F 0 "TP8" H 7183 3372 50  0000 L CNN
+F 1 "TestPoint" H 7183 3327 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7325 3300 50  0001 C CNN
+F 3 "~" H 7325 3300 50  0001 C CNN
+	1    7125 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

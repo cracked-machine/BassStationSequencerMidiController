@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name RS_5P180_DIN5_SOCKET_WSHIELD)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/CONNECTORS/MIDI/RS_5P180_DIN5_SOCKET_WSHIELD.pretty)(options "")(descr ""))
+  (lib (name PCB_SW_LED)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/SWITCHES/PCB_SW_LED.pretty)(options "")(descr ""))
+  (lib (name KEYPADS)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/MISC/KEYPADS/KEYPADS.pretty)(options "")(descr ""))
+  (lib (name DailywellSwitches)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/SWITCHES/DailywellSwitches.pretty)(options "")(descr ""))
+  (lib (name 2.42Inch_OLED_SSD1309)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/MODULES/DISPLAYS/2.42Inch_OLED_SSD1309.pretty)(options "")(descr ""))
+)

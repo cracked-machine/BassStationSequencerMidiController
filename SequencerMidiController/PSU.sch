@@ -1,0 +1,150 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 46
+Title "PSU - 5V and 3.3V"
+Date "2021-06-05"
+Rev "A"
+Comp "Created by C Sutton"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3750 1450 1025 700 
+U 60BD33F0
+F0 "PMOSReversePolarityProtection" 50
+F1 "PMOSReversePolarityProtection.sch" 50
+F2 "VIN" I L 3750 1775 50 
+F3 "VIN_POL" O R 4775 1775 50 
+$EndSheet
+$Comp
+L Connector:Barrel_Jack_Switch J5
+U 1 1 60BD4034
+P 1475 1875
+F 0 "J5" H 1532 2192 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1532 2101 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1525 1835 50  0001 C CNN
+F 3 "~" H 1525 1835 50  0001 C CNN
+	1    1475 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1775 1775 2800 1775
+Wire Wire Line
+	1775 1875 2300 1875
+Wire Wire Line
+	2300 1875 2300 1975
+$Comp
+L power:GNDS #PWR0104
+U 1 1 60BD50AE
+P 2300 2375
+F 0 "#PWR0104" H 2300 2125 50  0001 C CNN
+F 1 "GNDS" H 2305 2202 50  0000 C CNN
+F 2 "" H 2300 2375 50  0001 C CNN
+F 3 "" H 2300 2375 50  0001 C CNN
+	1    2300 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1775 1975 2300 1975
+Connection ~ 2300 1975
+Wire Wire Line
+	2300 1975 2300 2375
+$Sheet
+S 5725 1450 1275 700 
+U 60BD5AA5
+F0 "TPS563200_BUCK_RGB" 50
+F1 "TPS563200_BUCK.sch" 50
+F2 "BUCK_VIN" I L 5725 1775 50 
+F3 "BUCK_VOUT" O R 7000 1775 50 
+$EndSheet
+Wire Wire Line
+	5725 1775 5375 1775
+$Sheet
+S 8225 3925 1275 700 
+U 60C47354
+F0 "SE8233X2_LDO" 50
+F1 "SE8233X2_LDO.sch" 50
+F2 "LDO_VIN" I L 8225 4250 50 
+F3 "LDO_VOUT" O R 9500 4250 50 
+$EndSheet
+Wire Wire Line
+	8225 4250 7875 4250
+Wire Wire Line
+	9500 4250 9925 4250
+Text HLabel 9925 4250 2    50   Output ~ 0
++3.3V
+Text HLabel 9925 1775 2    50   Output ~ 0
++5V_RGB
+$Sheet
+S 5725 2750 1275 700 
+U 63615DFB
+F0 "TPS563200_BUCK_MISC" 50
+F1 "TPS563200_BUCK.sch" 50
+F2 "BUCK_VIN" I L 5725 3075 50 
+F3 "BUCK_VOUT" O R 7000 3075 50 
+$EndSheet
+Wire Wire Line
+	5725 3075 5375 3075
+Wire Wire Line
+	5375 3075 5375 1775
+Connection ~ 5375 1775
+Wire Wire Line
+	5375 1775 4775 1775
+Wire Wire Line
+	7000 1775 9925 1775
+Text HLabel 9925 3075 2    50   Output ~ 0
++5V_MISC
+Wire Wire Line
+	7000 3075 7875 3075
+Wire Wire Line
+	7875 3075 7875 4250
+Connection ~ 7875 3075
+Wire Wire Line
+	7875 3075 9925 3075
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 63B8B2DD
+P 3000 1775
+F 0 "SW3" H 3000 2010 50  0000 C CNN
+F 1 "SW_SPST" H 3000 1919 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3000 1775 50  0001 C CNN
+F 3 "~" H 3000 1775 50  0001 C CNN
+	1    3000 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1775 3750 1775
+$Sheet
+S 8225 5050 1275 700 
+U 66EB0BC6
+F0 "2_42Inch_OLED_LDO" 50
+F1 "2_42Inch_OLED_LDO.sch" 50
+F2 "VIN" I L 8225 5400 50 
+F3 "VOUT" O R 9500 5400 50 
+$EndSheet
+Wire Wire Line
+	8225 5400 7875 5400
+Wire Wire Line
+	7875 5400 7875 4250
+Connection ~ 7875 4250
+Wire Wire Line
+	9500 5400 9925 5400
+Text HLabel 9925 5400 2    50   Output ~ 0
++3.3V_OLED
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 68A724DD
+P 2300 1975
+F 0 "#FLG0105" H 2300 2050 50  0001 C CNN
+F 1 "PWR_FLAG" V 2300 2325 50  0000 C CNN
+F 2 "" H 2300 1975 50  0001 C CNN
+F 3 "~" H 2300 1975 50  0001 C CNN
+	1    2300 1975
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
