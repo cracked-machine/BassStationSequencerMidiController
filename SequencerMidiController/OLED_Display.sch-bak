@@ -21,6 +21,8 @@ F 0 "J8" H 6118 2975 50  0000 C CNN
 F 1 "Conn_01x07" H 6118 3066 50  0000 C CNN
 F 2 "2.42Inch_OLED_SSD1309:2.42Inch_OLED_SSD1309" H 6200 3500 50  0001 C CNN
 F 3 "~" H 6200 3500 50  0001 C CNN
+F 4 "~" H 6200 3500 50  0001 C CNN "LcscNo"
+F 5 "~" H 6200 3500 50  0001 C CNN "Type"
 	1    6200 3500
 	1    0    0    1   
 $EndComp
@@ -80,6 +82,8 @@ F 0 "TP53" H 5075 3275 50  0000 L CNN
 F 1 "TestPoint" H 5208 3052 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5350 3025 50  0001 C CNN
 F 3 "~" H 5350 3025 50  0001 C CNN
+F 4 "~" H 5150 3025 50  0001 C CNN "LcscNo"
+F 5 "~" H 5150 3025 50  0001 C CNN "Type"
 	1    5150 3025
 	1    0    0    -1  
 $EndComp
@@ -97,6 +101,8 @@ F 0 "TP54" H 5200 3150 50  0000 L CNN
 F 1 "TestPoint" H 5333 2927 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5475 2900 50  0001 C CNN
 F 3 "~" H 5475 2900 50  0001 C CNN
+F 4 "~" H 5275 2900 50  0001 C CNN "LcscNo"
+F 5 "~" H 5275 2900 50  0001 C CNN "Type"
 	1    5275 2900
 	1    0    0    -1  
 $EndComp
@@ -114,6 +120,8 @@ F 0 "TP55" H 5325 3275 50  0000 L CNN
 F 1 "TestPoint" H 5458 3052 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5600 3025 50  0001 C CNN
 F 3 "~" H 5600 3025 50  0001 C CNN
+F 4 "~" H 5400 3025 50  0001 C CNN "LcscNo"
+F 5 "~" H 5400 3025 50  0001 C CNN "Type"
 	1    5400 3025
 	1    0    0    -1  
 $EndComp
@@ -131,6 +139,8 @@ F 0 "TP52" H 4950 3150 50  0000 L CNN
 F 1 "TestPoint" H 5083 2927 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5225 2900 50  0001 C CNN
 F 3 "~" H 5225 2900 50  0001 C CNN
+F 4 "~" H 5025 2900 50  0001 C CNN "LcscNo"
+F 5 "~" H 5025 2900 50  0001 C CNN "Type"
 	1    5025 2900
 	1    0    0    -1  
 $EndComp

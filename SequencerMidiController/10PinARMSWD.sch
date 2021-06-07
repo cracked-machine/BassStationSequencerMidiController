@@ -23,6 +23,8 @@ F 0 "J7" H 5900 3967 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5900 3876 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5850 3550 50  0001 C CNN
 F 3 "~" H 5850 3550 50  0001 C CNN
+F 4 "~" H 5850 3550 50  0001 C CNN "LcscNo"
+F 5 "~" H 5850 3550 50  0001 C CNN "Type"
 	1    5850 3550
 	1    0    0    -1  
 $EndComp

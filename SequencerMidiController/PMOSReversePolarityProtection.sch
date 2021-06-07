@@ -34,7 +34,7 @@ Wire Wire Line
 	5900 2825 6100 2825
 Connection ~ 6100 2825
 Wire Wire Line
-	6100 2825 6550 2825
+	6100 2825 6425 2825
 Wire Wire Line
 	6100 2875 6100 2825
 Wire Wire Line
@@ -73,8 +73,8 @@ F 0 "R5" H 5525 3350 50  0000 C CNN
 F 1 "100K" H 5525 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5630 3400 50  0001 C CNN
 F 3 "~" H 5700 3400 50  0001 C CNN
-F 4 "" V 5700 3400 50  0001 C CNN "Type"
-F 5 "" H 5700 3400 50  0001 C CNN "LcscNo"
+F 4 "~" V 5700 3400 50  0001 C CNN "Type"
+F 5 "~" H 5700 3400 50  0001 C CNN "LcscNo"
 	1    5700 3400
 	-1   0    0    1   
 $EndComp
@@ -93,7 +93,7 @@ F 3 "" H 5700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 2825 4875 2825
+	5500 2825 5350 2825
 Text HLabel 4600 2825 0    50   Input ~ 0
 VIN
 $Comp
@@ -107,6 +107,8 @@ F 0 "TP3" H 4932 2817 50  0000 L CNN
 F 1 "TestPoint" H 4932 2728 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5075 2700 50  0001 C CNN
 F 3 "~" H 5075 2700 50  0001 C CNN
+F 4 "~" H 4875 2700 50  0001 C CNN "LcscNo"
+F 5 "~" H 4875 2700 50  0001 C CNN "Type"
 	1    4875 2700
 	1    0    0    -1  
 $EndComp
@@ -135,4 +137,29 @@ Text HLabel 7200 2825 2    50   Output ~ 0
 VIN_POL
 Wire Wire Line
 	5700 3550 5700 3650
+$Comp
+L Device:D_Schottky D7
+U 1 1 634DDB6A
+P 5725 2075
+F 0 "D7" H 5725 1858 50  0000 C CNN
+F 1 "BYS12-90-E3" H 5725 1949 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5725 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88950/bys12-90.pdf" H 5725 2075 50  0001 C CNN
+	1    5725 2075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5575 2075 5350 2075
+Wire Wire Line
+	5350 2075 5350 2825
+Connection ~ 5350 2825
+Wire Wire Line
+	5350 2825 4875 2825
+Wire Wire Line
+	5875 2075 6425 2075
+Wire Wire Line
+	6425 2075 6425 2825
+Connection ~ 6425 2825
+Wire Wire Line
+	6425 2825 6550 2825
 $EndSCHEMATC

@@ -29,6 +29,8 @@ F 0 "J5" H 1532 2192 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 1532 2101 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1525 1835 50  0001 C CNN
 F 3 "~" H 1525 1835 50  0001 C CNN
+F 4 "~" H 1475 1875 50  0001 C CNN "LcscNo"
+F 5 "~" H 1475 1875 50  0001 C CNN "Type"
 	1    1475 1875
 	1    0    0    -1  
 $EndComp
@@ -114,6 +116,8 @@ F 0 "SW3" H 3000 2010 50  0000 C CNN
 F 1 "SW_SPST" H 3000 1919 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3000 1775 50  0001 C CNN
 F 3 "~" H 3000 1775 50  0001 C CNN
+F 4 "~" H 3000 1775 50  0001 C CNN "LcscNo"
+F 5 "~" H 3000 1775 50  0001 C CNN "Type"
 	1    3000 1775
 	1    0    0    -1  
 $EndComp

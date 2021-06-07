@@ -22,6 +22,7 @@ F 1 "SE8233X2" H 5150 3576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3650 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/1912111437_Seaward-Elec-SE8233X2_C437587.pdf" H 5150 3425 50  0001 C CNN
 F 4 "C437587" H 5150 3425 50  0001 C CNN "LcscNo"
+F 5 "~" H 5150 3425 50  0001 C CNN "Type"
 	1    5150 3425
 	1    0    0    -1  
 $EndComp
@@ -54,6 +55,8 @@ F 0 "C6" H 4140 3771 50  0000 L CNN
 F 1 "1uF" H 4140 3680 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4063 3575 50  0001 C CNN
 F 3 "~" H 4025 3725 50  0001 C CNN
+F 4 "~" H 4025 3725 50  0001 C CNN "LcscNo"
+F 5 "~" H 4025 3725 50  0001 C CNN "Type"
 	1    4025 3725
 	1    0    0    -1  
 $EndComp
@@ -77,6 +80,8 @@ F 0 "C7" H 6390 3771 50  0000 L CNN
 F 1 "10uF" H 6390 3680 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6313 3575 50  0001 C CNN
 F 3 "~" H 6275 3725 50  0001 C CNN
+F 4 "~" H 6275 3725 50  0001 C CNN "LcscNo"
+F 5 "~" H 6275 3725 50  0001 C CNN "Type"
 	1    6275 3725
 	1    0    0    -1  
 $EndComp
@@ -98,6 +103,7 @@ F 1 "RED" V 7073 3632 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7125 3750 50  0001 C CNN
 F 3 "~" H 7125 3750 50  0001 C CNN
 F 4 "C2293" H 7125 3750 50  0001 C CNN "LcscNo"
+F 5 "~" H 7125 3750 50  0001 C CNN "Type"
 	1    7125 3750
 	0    -1   -1   0   
 $EndComp
@@ -109,6 +115,8 @@ F 0 "R9" H 7195 4271 50  0000 L CNN
 F 1 "2K2" H 7195 4180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7055 4225 50  0001 C CNN
 F 3 "~" H 7125 4225 50  0001 C CNN
+F 4 "~" H 7125 4225 50  0001 C CNN "LcscNo"
+F 5 "~" H 7125 4225 50  0001 C CNN "Type"
 	1    7125 4225
 	1    0    0    -1  
 $EndComp
@@ -141,6 +149,8 @@ F 0 "TP8" H 7183 3372 50  0000 L CNN
 F 1 "TestPoint" H 7183 3327 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7325 3300 50  0001 C CNN
 F 3 "~" H 7325 3300 50  0001 C CNN
+F 4 "~" H 7125 3300 50  0001 C CNN "LcscNo"
+F 5 "~" H 7125 3300 50  0001 C CNN "Type"
 	1    7125 3300
 	1    0    0    -1  
 $EndComp

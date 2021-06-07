@@ -25,6 +25,8 @@ F 0 "SW1" V 5825 4950 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" V 5925 4750 50  0000 L CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5675 4260 50  0001 C CNN
 F 3 "~" H 5825 4360 50  0001 C CNN
+F 4 "~" H 5825 4100 50  0001 C CNN "LcscNo"
+F 5 "~" H 5825 4100 50  0001 C CNN "Type"
 	1    5825 4100
 	0    -1   -1   0   
 $EndComp
@@ -69,6 +71,8 @@ F 0 "R28" H 5145 4246 50  0000 L CNN
 F 1 "10K" H 5145 4155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5005 4200 50  0001 C CNN
 F 3 "~" H 5075 4200 50  0001 C CNN
+F 4 "~" H 5075 4200 50  0001 C CNN "LcscNo"
+F 5 "~" H 5075 4200 50  0001 C CNN "Type"
 	1    5075 4200
 	1    0    0    -1  
 $EndComp
@@ -84,6 +88,8 @@ F 0 "R29" H 6695 4246 50  0000 L CNN
 F 1 "10K" H 6695 4155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6555 4200 50  0001 C CNN
 F 3 "~" H 6625 4200 50  0001 C CNN
+F 4 "~" H 6625 4200 50  0001 C CNN "LcscNo"
+F 5 "~" H 6625 4200 50  0001 C CNN "Type"
 	1    6625 4200
 	1    0    0    -1  
 $EndComp
