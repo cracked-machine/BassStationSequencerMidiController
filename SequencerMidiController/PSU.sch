@@ -152,4 +152,6 @@ F 3 "~" H 2300 2075 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3200 1975
+Text Notes 1400 1475 0    50   ~ 0
+9-15V\n
 $EndSCHEMATC

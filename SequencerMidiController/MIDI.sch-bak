@@ -42,8 +42,6 @@ $EndComp
 Wire Wire Line
 	3400 1575 3400 1500
 Wire Wire Line
-	3400 1500 3675 1500
-Wire Wire Line
 	4600 1725 4600 1500
 Wire Wire Line
 	4600 1500 4275 1500
@@ -154,24 +152,6 @@ Wire Wire Line
 	7200 1825 7200 1950
 Connection ~ 7200 1950
 $Comp
-L Connector:TestPoint TP1
-U 1 1 60BA126E
-P 3675 1375
-F 0 "TP1" H 3733 1447 50  0000 L CNN
-F 1 "TestPoint" H 3733 1402 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3875 1375 50  0001 C CNN
-F 3 "~" H 3875 1375 50  0001 C CNN
-F 4 "~" H 3675 1375 50  0001 C CNN "LcscNo"
-F 5 "~" H 3675 1375 50  0001 C CNN "Type"
-	1    3675 1375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3675 1375 3675 1500
-Connection ~ 3675 1500
-Wire Wire Line
-	3675 1500 3975 1500
-$Comp
 L MidiDin5:DIN-5 J2
 U 1 1 60BA1755
 P 7150 4725
@@ -215,8 +195,6 @@ F 5 "~" H 5900 5200 50  0001 C CNN "Type"
 	1    5900 5200
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6050 5200 6450 5200
 Wire Wire Line
 	7200 1950 7700 1950
 Wire Wire Line
@@ -294,22 +272,8 @@ Wire Wire Line
 Connection ~ 4075 5200
 Wire Wire Line
 	4075 5200 3875 5200
-$Comp
-L Connector:TestPoint TP51
-U 1 1 63B85A0C
-P 6450 5075
-F 0 "TP51" H 6508 5147 50  0000 L CNN
-F 1 "TestPoint" H 6508 5102 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6650 5075 50  0001 C CNN
-F 3 "~" H 6650 5075 50  0001 C CNN
-F 4 "~" H 6450 5075 50  0001 C CNN "LcscNo"
-F 5 "~" H 6450 5075 50  0001 C CNN "Type"
-	1    6450 5075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6450 5075 6450 5200
-Connection ~ 6450 5200
+	3400 1500 3975 1500
 Wire Wire Line
-	6450 5200 7050 5200
+	6050 5200 7050 5200
 $EndSCHEMATC

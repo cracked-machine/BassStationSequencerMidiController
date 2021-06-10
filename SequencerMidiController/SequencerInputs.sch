@@ -2476,7 +2476,7 @@ U 1 1 60BBFEF4
 P 6275 3775
 F 0 "U35" H 6475 4850 50  0000 C CNN
 F 1 "ADP5587-ACPZ_LFCSP24" H 5500 2725 50  0000 C CNN
-F 2 "Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm" H 6675 4375 50  0001 C CNN
+F 2 "Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm_ThermalVias" H 6675 4375 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5587.pdf" H 6675 4375 50  0001 C CNN
 F 4 "~" H 6275 3775 50  0001 C CNN "LcscNo"
 F 5 "~" H 6275 3775 50  0001 C CNN "Type"
