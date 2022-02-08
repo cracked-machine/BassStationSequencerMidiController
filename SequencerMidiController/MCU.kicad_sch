@@ -682,7 +682,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c646c61-400f-4f60-98b8-05ed5e632a3f)
   )
-  (text "GPIO_OUTPUT_33MHZ (TLC5955)" (at 202.565 117.475 0)
+  (text "TIM4_CH1 (TLC5955)" (at 202.565 117.475 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f96e159-1f3b-4ee7-a46e-e60d78f2137a)
   )
