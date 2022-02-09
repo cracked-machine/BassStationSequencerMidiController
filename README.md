@@ -1,6 +1,6 @@
 ## BassStationMidiController
 
-![](https://www.bitshiftmyrobot.com/wp-content/uploads/Front_BassStation_Sequencer_MidiInterface.png)
+![](SequencerMidiController/Docs/Layout_Rendered/Front_BassStation_Sequencer_MidiInterface.png)
 
 ### Discussion and Design
 
