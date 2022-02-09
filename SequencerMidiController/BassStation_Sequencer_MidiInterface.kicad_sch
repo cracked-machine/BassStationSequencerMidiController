@@ -6,7 +6,7 @@
 
   (title_block
     (title "BassStation Sequencer_MIDIController")
-    (rev "A")
+    (rev "B")
   )
 
   (lib_symbols
