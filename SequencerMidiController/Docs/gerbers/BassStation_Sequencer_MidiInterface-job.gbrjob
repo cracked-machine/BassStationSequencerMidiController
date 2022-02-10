@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.1-79c1e3a40b~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-02-09T00:17:26+00:00"
+    "CreationDate": "2022-02-10T02:08:21+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "BassStation_Sequencer_MidiInterface",
       "GUID": "42617373-5374-4617-9469-6f6e5f536571",
-      "Revision": "A"
+      "Revision": "B"
     },
     "Size": {
       "X": 249.605,

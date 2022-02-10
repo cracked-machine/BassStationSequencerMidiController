@@ -788,6 +788,15 @@
     (path "/00000000-0000-0000-0000-000060bcdd64/9bb745c6-aa33-4b3e-9169-4c1c5201564b"
       (reference "#PWR035") (unit 1) (value "GNDS") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060bcdd64/e1a2236e-9438-4cf8-9628-4a2edf553390"
+      (reference "#PWR036") (unit 1) (value "GNDS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdd64/7d665ba8-9fc1-4cd7-b086-eb84e941ad3a"
+      (reference "#PWR037") (unit 1) (value "GNDS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060bcddb1/9cb99258-55d4-4648-bcc5-95fcdc75f5e0"
+      (reference "#PWR038") (unit 1) (value "GNDS") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006857c458/00000000-0000-0000-0000-00006857faf4"
       (reference "#PWR040") (unit 1) (value "GNDS") (footprint "")
     )
@@ -820,6 +829,9 @@
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000637a608b"
       (reference "#PWR0110") (unit 1) (value "GNDS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/d2fb76de-c162-4445-8dbb-7df6d4cd6a13"
+      (reference "#PWR?") (unit 1) (value "GNDS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd5aa5/00000000-0000-0000-0000-000060bd6867"
       (reference "C1") (unit 1) (value "10uF 20V X5R") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
@@ -1055,6 +1067,9 @@
     (path "/00000000-0000-0000-0000-000060bcdd64/7c552e66-37eb-4e86-b6a9-7480964e261d"
       (reference "SW10") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_PUSH-12mm")
     )
+    (path "/00000000-0000-0000-0000-000060bcdd64/d5f63c24-76a6-4bd0-a702-ed5076221fc1"
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000060ba06be"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -1085,26 +1100,20 @@
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000612d53f3"
       (reference "TP11") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/00000000-0000-0000-0000-000060bcdd64/54bb3085-c887-4bb6-9599-1ccfff2f12b6"
+      (reference "TP12") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-00006134e5eb"
       (reference "TP13") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdd64/9adba8cf-a187-4272-a4dc-7a894acaa1b7"
+      (reference "TP14") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000613c79bd"
       (reference "TP15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000061a0da66"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000061efe5e3"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000061f7d4c7"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000061ffc5eb"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-00006207b7fc"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000060d44da8"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -1114,30 +1123,6 @@
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-00006100a6f5"
       (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000627103a2"
-      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000627924cf"
-      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000628154eb"
-      (reference "TP26") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-0000628154f2"
-      (reference "TP27") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000062897cc2"
-      (reference "TP28") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000062897cc9"
-      (reference "TP29") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-00006291abd4"
-      (reference "TP30") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-00006291abdb"
-      (reference "TP31") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcddb1/00000000-0000-0000-0000-000063b4002c"
       (reference "TP32") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -1196,6 +1181,9 @@
     (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000063b85270"
       (reference "TP50") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/00000000-0000-0000-0000-000060bcdd64/422c1aa7-bd8c-4c94-9e5b-2fd049d9e649"
+      (reference "TP51") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-00006857c458/00000000-0000-0000-0000-000063b8a55f"
       (reference "TP52") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -1207,6 +1195,33 @@
     )
     (path "/00000000-0000-0000-0000-00006857c458/00000000-0000-0000-0000-000063b8a558"
       (reference "TP55") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdd64/e4b9bccd-2e5f-47ca-af81-7ff3dde5a06b"
+      (reference "TP56") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdd64/1d20460f-6d7c-4787-9682-73a7b81cbf4a"
+      (reference "TP57") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdd64/f097dac0-7636-45ed-ada4-fc4e2d4d4216"
+      (reference "TP58") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcddb1/4c2883fc-1d11-493e-bd02-52f8c5c47b49"
+      (reference "TP59") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060bcddb1/368659ed-216b-494b-bf86-b1f9ffbe1665"
+      (reference "TP60") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/37a355f4-68c8-49f7-b8a1-899ad111dac6"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/645cc67b-fba3-4a4a-bcb9-379a05852a47"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/726a0054-cbec-4101-b54a-7b018cee3b47"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/96392de6-769f-4bbf-98f8-13c7154240c6"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000060e0090a/00000000-0000-0000-0000-000060b6a70a"
       (reference "U1") (unit 1) (value "PCB-SPST_RGB-LED-Counter-Clockwise") (footprint "PCB_SW_LED:Circular_3mm_10mm_Cree_PLLC6_CLY6D-FKC-CK1N1D1BB7D3D3")
