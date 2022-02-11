@@ -420,7 +420,7 @@
   (symbol (lib_id "PCB_LED_SW:PCB-SPST_RGB-LED-Counter-Clockwise") (at 158.115 97.79 0) (mirror y)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b6a70a)
-    (property "Reference" "U9" (id 0) (at 158.115 80.899 0))
+    (property "Reference" "U1" (id 0) (at 158.115 80.899 0))
     (property "Value" "PCB-SPST_RGB-LED-Counter-Clockwise" (id 1) (at 158.115 83.2104 0))
     (property "Footprint" "PCB_SW_LED:Circular_3mm_10mm_Cree_PLLC6_CLY6D-FKC-CK1N1D1BB7D3D3" (id 2) (at 158.115 82.55 0)
       (effects (font (size 1.27 1.27)) hide)

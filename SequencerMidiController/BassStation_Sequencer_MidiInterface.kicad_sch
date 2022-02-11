@@ -831,7 +831,7 @@
       (reference "#PWR0110") (unit 1) (value "GNDS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006857c458/d2fb76de-c162-4445-8dbb-7df6d4cd6a13"
-      (reference "#PWR?") (unit 1) (value "GNDS") (footprint "")
+      (reference "#PWR0111") (unit 1) (value "GNDS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd5aa5/00000000-0000-0000-0000-000060bd6867"
       (reference "C1") (unit 1) (value "10uF 20V X5R") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
@@ -930,7 +930,7 @@
       (reference "D7") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060b3fce7/34f03587-bf08-4fe7-b28b-4bec0b9a5344"
-      (reference "J1") (unit 1) (value "MDIN-5") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
+      (reference "J1") (unit 1) (value "MIDI IN") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
     )
     (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000060ba1755"
       (reference "J2") (unit 1) (value "MIDI OUT") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
@@ -1115,6 +1115,18 @@
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000061a0da66"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/00000000-0000-0000-0000-00006857c458/96392de6-769f-4bbf-98f8-13c7154240c6"
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/37a355f4-68c8-49f7-b8a1-899ad111dac6"
+      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/726a0054-cbec-4101-b54a-7b018cee3b47"
+      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006857c458/645cc67b-fba3-4a4a-bcb9-379a05852a47"
+      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000060d44da8"
       (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -1210,18 +1222,6 @@
     )
     (path "/00000000-0000-0000-0000-000060bcddb1/368659ed-216b-494b-bf86-b1f9ffbe1665"
       (reference "TP60") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00006857c458/37a355f4-68c8-49f7-b8a1-899ad111dac6"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00006857c458/645cc67b-fba3-4a4a-bcb9-379a05852a47"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00006857c458/726a0054-cbec-4101-b54a-7b018cee3b47"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00006857c458/96392de6-769f-4bbf-98f8-13c7154240c6"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060bcdd64/00000000-0000-0000-0000-000060e0090a/00000000-0000-0000-0000-000060b6a70a"
       (reference "U1") (unit 1) (value "PCB-SPST_RGB-LED-Counter-Clockwise") (footprint "PCB_SW_LED:Circular_3mm_10mm_Cree_PLLC6_CLY6D-FKC-CK1N1D1BB7D3D3")
