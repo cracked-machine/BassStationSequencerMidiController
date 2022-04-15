@@ -971,7 +971,7 @@
       (reference "J2") (unit 1) (value "MIDI OUT") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
     )
     (path "/00000000-0000-0000-0000-000060bcdcf5/51a02b96-021c-4b48-afb3-b2c25e2d9e78/6a7300ee-6e79-40d6-b10b-d01417e45e41"
-      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
+      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060bcddb1/00000000-0000-0000-0000-000060c5e3d9"
       (reference "J4") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal")
