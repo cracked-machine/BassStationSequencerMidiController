@@ -417,7 +417,7 @@
     (uuid bdb69042-8fa0-4d7e-be19-fed7218cdfd8)
   )
 
-  (symbol (lib_id "PCB_LED_SW:PCB-SPST_RGB-LED-Counter-Clockwise") (at 158.115 97.79 0) (mirror y)
+  (symbol (lib_id "PCB_LED_SW:PCB-SPST_RGB-LED-Counter-Clockwise") (at 158.115 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b6a70a)
     (property "Reference" "U1" (id 0) (at 158.115 80.899 0))

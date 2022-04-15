@@ -212,6 +212,14 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9390234f-bf3f-46cd-b6a0-8a438ec76e9f)
   )
+  (wire (pts (xy 210.185 98.425) (xy 200.66 98.425))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a1759df6-26b7-4abf-9632-c2ec41c6eddf)
+  )
+  (wire (pts (xy 200.66 98.425) (xy 200.66 94.615))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a72b9da8-589b-45ae-a2e0-4bd5e50dc3c5)
+  )
   (wire (pts (xy 306.07 84.455) (xy 306.07 80.645))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid aeb03be9-98f0-43f6-9432-1bb35aa04bab)
@@ -381,6 +389,22 @@
     (pin "1" (uuid 95a9cb1b-c155-4d37-a2b5-cecc3f928209))
   )
 
+  (symbol (lib_id "power:+5V") (at 200.66 94.615 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 85830388-c34d-4f3f-a78d-9eed77152365)
+    (property "Reference" "#PWR0112" (id 0) (at 200.66 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (id 1) (at 201.041 90.2208 0))
+    (property "Footprint" "" (id 2) (at 200.66 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 200.66 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e0b9343e-ac3b-4c17-a4ef-01a7f969387f))
+  )
+
   (sheet (at 315.595 80.645) (size 35.56 33.655) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -478,6 +502,10 @@
     (pin "I2C3_INT" output (at 210.185 178.435 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 60aa0ce8-9d0e-48ca-bbf9-866403979e9b)
+    )
+    (pin "SD_VIN" input (at 210.185 98.425 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2219df43-461f-4afc-a217-72b01fc74215)
     )
   )
 
@@ -668,6 +696,7 @@
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060c47354" (page "44"))
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000063615dfb" (page "45"))
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd5aa5" (page "46"))
+    (path "/00000000-0000-0000-0000-000060bcdcf5/51a02b96-021c-4b48-afb3-b2c25e2d9e78" (page "47"))
   )
 
   (symbol_instances
@@ -833,6 +862,12 @@
     (path "/00000000-0000-0000-0000-00006857c458/d2fb76de-c162-4445-8dbb-7df6d4cd6a13"
       (reference "#PWR0111") (unit 1) (value "GNDS") (footprint "")
     )
+    (path "/85830388-c34d-4f3f-a78d-9eed77152365"
+      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdcf5/51a02b96-021c-4b48-afb3-b2c25e2d9e78/30bbb9d6-605e-4200-8ccb-d7b5ec008bc2"
+      (reference "#PWR0113") (unit 1) (value "GNDS") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd5aa5/00000000-0000-0000-0000-000060bd6867"
       (reference "C1") (unit 1) (value "10uF 20V X5R") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
@@ -909,7 +944,7 @@
       (reference "C25") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd33f0/00000000-0000-0000-0000-000060b71c00"
-      (reference "D1") (unit 1) (value "MMSZ4694T1G") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D1") (unit 1) (value "MMSZ4694T1G") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000060b99aa1"
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123F")
@@ -934,6 +969,9 @@
     )
     (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000060ba1755"
       (reference "J2") (unit 1) (value "MIDI OUT") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
+    )
+    (path "/00000000-0000-0000-0000-000060bcdcf5/51a02b96-021c-4b48-afb3-b2c25e2d9e78/6a7300ee-6e79-40d6-b10b-d01417e45e41"
+      (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060bcddb1/00000000-0000-0000-0000-000060c5e3d9"
       (reference "J4") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal")
