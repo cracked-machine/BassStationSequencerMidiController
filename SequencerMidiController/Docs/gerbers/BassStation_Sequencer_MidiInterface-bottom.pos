@@ -1,0 +1,22 @@
+### Module positions - created on Monday, 20 June 2022 at 23:51:48 ###
+### Printed by Pcbnew version (6.0.5-0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                   Package                                               PosX       PosY       Rot  Side
+C9        100nF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -206.1210  -158.4960    0.0000  bottom
+C10       100nF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -205.7400  -189.7380   90.0000  bottom
+C20       100nF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -166.8780  -131.8260   90.0000  bottom
+C21       100nF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -163.3220  -148.3360  -90.0000  bottom
+C22       4.7uF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -164.2110  -131.8260   90.0000  bottom
+C23       4.7uF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -166.1160  -148.3360  -90.0000  bottom
+D2        1N4148                D_SOD-123F                                       -161.2900  -120.0150  180.0000  bottom
+R11       220R                  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -156.9720  -133.8580  -90.0000  bottom
+R12       220R                  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      -155.9560  -137.1600  180.0000  bottom
+R22       10K                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      -124.9680  -124.9680   90.0000  bottom
+R23       10K                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      -122.1740  -124.9680   90.0000  bottom
+R24       10K                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      -119.1260  -124.9680   90.0000  bottom
+U34       ADG2188               QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias  -122.3645  -117.5385    0.0000  bottom
+U35       ADP5587-ACPZ_LFCSP24  LFCSP-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm            -187.9600  -139.7000   90.0000  bottom
+U36       TLC5955DCA_HTSSOP56   HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm      -205.7400  -199.7075  180.0000  bottom
+U37       TLC5955DCA_HTSSOP56   HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm      -205.8670  -167.7035  180.0000  bottom
+## End

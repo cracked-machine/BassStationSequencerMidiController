@@ -964,11 +964,11 @@
     (path "/00000000-0000-0000-0000-000060bd3123/00000000-0000-0000-0000-000060bd33f0/00000000-0000-0000-0000-000060bf64d6"
       (reference "D7") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000060b3fce7/34f03587-bf08-4fe7-b28b-4bec0b9a5344"
-      (reference "J1") (unit 1) (value "MIDI IN") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
+    (path "/00000000-0000-0000-0000-000060b3fce7/df954a1e-1cf1-4776-a726-34dcd89760e4"
+      (reference "J1") (unit 1) (value "MIDI_IN") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
     )
-    (path "/00000000-0000-0000-0000-000060b3fce7/00000000-0000-0000-0000-000060ba1755"
-      (reference "J2") (unit 1) (value "MIDI OUT") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
+    (path "/00000000-0000-0000-0000-000060b3fce7/8c1bec13-82ce-440c-83af-6d32dbad8e47"
+      (reference "J2") (unit 1) (value "MIDI_OUT") (footprint "RS_5P180_DIN5_SOCKET_WSHIELD:RS_5P180_DIN5_SOCKET_WSHIELD")
     )
     (path "/00000000-0000-0000-0000-000060bcdcf5/51a02b96-021c-4b48-afb3-b2c25e2d9e78/6a7300ee-6e79-40d6-b10b-d01417e45e41"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
